@@ -595,14 +595,14 @@ TIP: You can change your event time below in the Same Format.  -->
 
                     <!-- Testing Paypal? Change Paypal URL to https://www.sandbox.paypal.com/cgi-bin/webscr If you are testing -->
 
-                    <form action="https://www.paypal.com/cgi-bin/webscr" method="POST" target="_top" id="paypal-regn">
+                    <form action="php/register.php" method="POST" target="_top" id="register-form">
 
                         <div class="row">
 
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label>Prénom</label>
-                                    <input type="text" class="form-control" name="first_name" placeholder="Prénom"
+                                    <input type="text" class="form-control" name="prenom" placeholder="Prénom"
                                            required>
 
                                 </div>
@@ -611,7 +611,7 @@ TIP: You can change your event time below in the Same Format.  -->
                             <div class="col-sm-6">
                                 <div class="form-group">
                                     <label>Nom</label>
-                                    <input type="text" class="form-control" name="last_name" placeholder="Nom"
+                                    <input type="text" class="form-control" name="nom" placeholder="Nom"
                                            required>
                                 </div>
                             </div>
