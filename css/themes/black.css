@@ -89,7 +89,7 @@ a:focus,
 /*background*/
 
 .timeline::before {
-    background: #444349;
+    background: #ed6c4c;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -102,7 +102,7 @@ a:focus,
 
 .timeline-bullet,
 .highlighted-plan {
-    border-color: #444349;
+    border-color: #ed6c4c;
 }
 /*background color*/
 
@@ -116,7 +116,7 @@ a:focus,
   ------- */
 
 .btn-default {
-    color: #444349;
+    color: #ed6c4c;
     border-color: #FFF;
 }
 
